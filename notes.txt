@@ -1,7 +1,7 @@
 SSH key generate method :
 
 in terminal;
-1 ssh-keygen -t rsa -b 4096 -C "aasathkamil99@gmail.com
+1 ssh-keygen -t rsa -b 4096 -C "aasathkamil99@gmail.com"
     1. press Enter key without give any password
     2. again press Enter key without give any password
 2 cat ~/.ssh/id_rsa.pub
@@ -39,7 +39,7 @@ SSH Hosting method of laravel
 
 1. open putty terminal -> enter ip & port number ->after enter userName & password.
 2. got to the domain work place using cd  ->  for Example cd domains/marazin.lk/public_html/verify
-3. clone the project from github for example -> git clone git@github.com:Janusath/abs-construction.git .
+3. clone the project from github for example -> git clone git@github.com:mmatheen/Marazin-ultimate-pos.git .
 4. composer2 update/composer update
 5. cp .env.example .env
 6. php artisan key:generate
