@@ -38,9 +38,10 @@ SSH Hosting method of laravel
 1. open putty terminal -> enter ip & port number ->after enter userName & password.
 2. got to the domain work place using cd  ->  for Example cd domains/url click/file manger
 3. clone the project from github for example -> git clone git@github.com:mmatheen/Marazin-ultimate-pos.git .
-4. composer2 update/composer update
-5. cp .env.example .env
+4. cp .env.example .env
+5. composer2 update/ composer update
 6. php artisan key:generate
+
 7. nano .env
 
 	note: if you change any value in the nano terminal 
